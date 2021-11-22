@@ -3,7 +3,10 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import "../styles/styles.css"
 // import { FaPlus, FaGithub } from 'react-icons/all';
+
+
 
 const Navigate = () => {
     
@@ -11,7 +14,7 @@ const Navigate = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">CB. Portfolio</Navbar.Brand>
+                    <Navbar.Brand href="#home"> CB </Navbar.Brand>
                     <Nav className="justify-content-end">
                         <Nav.Item>
                         <Nav.Link href="#home">Home</Nav.Link>

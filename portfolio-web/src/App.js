@@ -16,7 +16,7 @@ function App() {
         <Navigate />
       </header>
       <Features />
-        <About />
+      <About />
         {/* <Projects />
         <Skills />
         <Contact />  */}

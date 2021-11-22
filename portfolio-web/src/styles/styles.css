@@ -89,3 +89,16 @@
 {
   letter-spacing: 6px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;500&display=swap');
+
+.navbar-dark .navbar-brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@600&family=Poppins:wght@300;500&display=swap');
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
