@@ -11,13 +11,21 @@ const Navigate = () => {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="#home">CB. Portfolio</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#About">About</Nav.Link>
-                    <Nav.Link href="#Skills">Skills</Nav.Link>
-                    <Nav.Link href="#Contact">Contact</Nav.Link>
-                </Nav>
+                    <Navbar.Brand href="#home">CB. Portfolio</Navbar.Brand>
+                    <Nav className="justify-content-end">
+                        <Nav.Item>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link href="#Skills">Skills</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                        <Nav.Link href="#Contact">Contact</Nav.Link>
+                        </Nav.Item>
+                    </Nav>
                 </Container>
             </Navbar>
         </>
